@@ -1,4 +1,5 @@
-import { McpServer, createMcpHandler } from '@modelcontextprotocol/server';
+import { McpServer } from '@modelcontextprotocol/server';
+import { createMcpHandler } from 'agents/mcp/server';
 import { z } from 'zod';
 import { analisarIndicadores, verificarViabilidade } from './logica.mjs';
 
