@@ -3,6 +3,7 @@
   "name": "melhoria-profissional-mcp",
   "main": "src/index.js",
   "compatibility_date": "2026-11-20",
+  "compatibility_flags": ["nodejs_compat"],
   "observability": {
     "logs": {
       "enabled": true,
