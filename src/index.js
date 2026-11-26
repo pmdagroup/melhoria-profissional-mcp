@@ -58,6 +58,6 @@ export default {
       return new Response(challenge,{headers:{'content-type':'text/plain; charset=utf-8','cache-control':'no-store'}});
     }
     if (pathname !== '/mcp') return new Response('Not Found',{status:404});
-    return handler(request,env,ctx);
+    return handler.fetch(request);
   }
 };
