@@ -1,8 +1,12 @@
+
 {
   "name": "melhoria-profissional-mcp",
   "main": "src/index.js",
   "compatibility_date": "2026-11-20",
   "observability": {
-    "logs": { "enabled": false }
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1
+    }
   }
 }
